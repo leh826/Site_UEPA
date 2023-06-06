@@ -1,0 +1,17 @@
+.conteudo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-branca);
+    font-weight: 400;
+    text-align: center;
+}
+
+.conteudo-titulo{
+    font-weight: 700;
+    font-size: 2em;
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+
+.conteudo-texto{
+    padding: .5em 0;
+}

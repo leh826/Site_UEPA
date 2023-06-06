@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("./header.css");
+@import url("./conteudo.css");
+@import url("./rodape.css");
+
+body {
+    font-size: 1.2em;
+    background-color: var(--cor-cinza);
+    position: relative;
+    min-height: 100vh;
+}
+
+:root {
+    --cor-azul-escuro: #051923;
+    --cor-primaria: #003554;
+    --cor-secundaria: #006494;
+    --cor-terciaria: #0582CA;
+    --cor-azul-claro: #00A6FB;
+    --cor-branca: #ffffff;
+    --cor-cinza: #313638;
+    --fonte-principal: 'Quicksand', sans-serif;
+}
