@@ -5,7 +5,7 @@
 
 body {
     font-size: 1.2em;
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-primaria);
     position: relative;
     min-height: 100vh;
 }
