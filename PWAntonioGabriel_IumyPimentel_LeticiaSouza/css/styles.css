@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Poppins&display=swap');
 @import url("./header.css");
 @import url("./conteudo.css");
 @import url("./rodape.css");
@@ -18,5 +19,6 @@ body {
     --cor-azul-claro: #00A6FB;
     --cor-branca: #ffffff;
     --cor-cinza: #313638;
-    --fonte-principal: 'Quicksand', sans-serif;
+    --fonte-principal: 'poppins', sans-serif;
+    --fonte-almarai:'almarai', sans-serif;
 }
