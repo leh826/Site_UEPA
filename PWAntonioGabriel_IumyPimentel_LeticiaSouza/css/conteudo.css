@@ -32,3 +32,31 @@
     width: 40rem;
     margin-bottom: 30px;
 }
+
+.conteudo-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo-links-redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-links-redes a {
+    padding: 0.5em;
+}
+
+#logo {
+    max-width: 35px;
+    max-height: 35px;
+    width: auto;
+    height: auto;
+}
+
+#logo-uepa {
+    max-width: 200px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
