@@ -23,18 +23,20 @@ $result = mysqli_query ($conn, $sql);
             <div class="container">
 
                 <h1> Portal do Administrador </h1>
-                <h2>Seja Bem-Vindo Adm! </h2>
-
+                <h3>Seja Bem-Vindo Adm! </h3><br>
             </div>
         </div>
         <div>
-            <table>
+            <table class="table table-striped">
+                <thead class="thead-nigth">
                 <tr>
-                    <td>Id</td>
-                    <td>Nome</td>
-                    <td>Assunto</td>
-                    <td>Mensagem</td>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Assunto</th>
+                    <th scope="col">Mensagem</th>
                 </tr>
+                </thead>
+                <tbody>
                 
                     <?php while($dado = mysqli_fetch_array($result)) { ?> 
                 <tr> 
@@ -45,6 +47,8 @@ $result = mysqli_query ($conn, $sql);
             <?php
             } 
             ?>
+                 </tbody>   
+                    
             </table>
         </div>
         
