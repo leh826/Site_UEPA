@@ -1,0 +1,22 @@
+body {
+    background-color: var(--cor-primaria);
+    text-align: center;
+}
+
+.faleconosco{
+    font-family: var(--fonte-Quicksand);
+    color: var(--cor-branca);
+}
+.sobrefaleconosco{
+    font-family: var(--fonte-Quicksand);
+    color: var(--cor-branca);
+    align-items: center;
+}
+.formulario{
+    font-family: var(--fonte-Quicksand);
+    color: var(--cor-branca);
+}
+.radio input{
+    align-items:baseline;
+    padding: 2px;
+}
