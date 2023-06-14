@@ -1,0 +1,27 @@
+
+.conteudo-titulo{
+    font-family: var(--fonte-Quicksand);
+    color: var(--cor-branca);
+}
+.docentes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.docentes img{
+    display: block;
+    padding: 20px;
+    width: 200px; 
+    margin: 10px auto;
+    background-color: var(--cor-branca);
+}
+figure figcaption{
+    display: flex;
+    padding: 20px;
+    width: 200px;
+   
+}
+.descricao{
+    padding: 20px;
+    width: 200px;
+}

@@ -19,7 +19,7 @@ b{
     padding: .5em 0;
     margin-left: 10px;
     margin-right: 10px;
-    text-align: center;
+    text-align: justify;
     font-family: var(--fonte-almarai);
 }
 .titulo-docente{
@@ -28,8 +28,10 @@ b{
 .tabela{
     padding: 1em;
     width: 40rem;
+    display: flex;
 }
 .tabela-aluno{
+    display: flex;
     padding: 1em;
     width: 40rem;
     margin-bottom: 30px;
