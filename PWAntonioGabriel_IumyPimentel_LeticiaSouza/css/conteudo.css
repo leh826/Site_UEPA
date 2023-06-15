@@ -61,3 +61,24 @@ b{
     height: auto;
     justify-content: space-between;
 }
+.colegiado{
+    display: flex;
+    width: 950px;
+    /*overflow: hidden; não ultrapassar a div*/
+}
+.membros{
+    margin: 1em;
+    padding: 10px;
+    background-color: var(--cor-branca);
+    border-radius: 5px;
+    text-align: center;
+}
+.membros img{
+    width: 200px;
+    height: 250px;
+}
+figcaption{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--cor-azul-escuro);
+}
