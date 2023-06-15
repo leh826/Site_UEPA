@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/fale_conosco.css">
+    <link rel="stylesheet" href="./css/rodape.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     
 </head>
-<body>
+<body class="text-center">
    <header class="cabecalho">
         <div>
             <a href="./index.html"><img src="./img/Logo Curso Sem fundo.png" alt="Foto da Logo do Curso de Ciência de Dados"></a>
@@ -32,7 +33,7 @@
             </nav>
         </div>
    </header>
-   <main >
+   <main class="text-center">
 
     <div class="sobrefaleconosco">
 
@@ -41,58 +42,76 @@
             <h1>Sobre o Portal Fale Conosco</h1>
         </div>
     </div>
-                <div class="sb-container">
-                  <div class="row">
-                       <div class="col-12 col-md-7">
-                            <div class="sb-hotsite-template-1__texto__container">
-                                <p>Fale Conosco UEPA é o seu canal direto para sugerir, reclamar, elogiar ou denunciar ou de situações e pessoas ligadas à instituição <br>
-                                <br>
-                                A área Fale Conosco é o portal de comunicação para o públicos externos e internos. Dessa forma, todos podem enviar suas mensagens para a Universidade do Estado do Pará - UEPA.<br>
-                                <br>
-                                Deste modo teremos conhecimento das diversas opiniões sobre a instituição de ensino e sobre o este sistema de comunicação. O que servirá para a melhora do sistema.<br>
-                                <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="f-signin">
+                  
+                <div class="col-md-12">
+                    <div>
+                            <p>Fale Conosco UEPA é o seu canal direto para sugerir, reclamar, elogiar ou denunciar ou de situações e pessoas ligadas à instituição <br>
+                            <br>
+                            A área Fale Conosco é o portal de comunicação para o públicos externos e internos. Dessa forma, todos podem enviar suas mensagens para a Universidade do Estado do Pará - UEPA.<br>
+                            <br>
+                            Deste modo teremos conhecimento das diversas opiniões sobre a instituição de ensino e sobre o este sistema de comunicação. O que servirá para a melhora do sistema.<br>
+                            
+                            </p>
+                     </div>
                 </div>
+            </div>
     </div>  
        
          <div class="formulario">
 
-    <form method="POST" action="fale_conosco.php">
-        
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Envie sua mensagem a coordenação</h1>
-        </div>
-    </div>
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Envie sua mensagem a coordenação</h1>
+                </div>
+            </div>
 
-    <label>Seu Nome: </label>
-        <input type="text" name="nome" id="nome" required><br>
+    <form method="POST" action="fale_conosco.php" class="form-signin">
+
+    <label class="sr-only">Nome Completo: </label>
+        <input type="text" name="nome" id="nome" class="form-control" required><br>
 
         <div class="radio">
-    <label>Assunto: </label>
-    <input type="radio" name="assunto" id="assunto" value="Denuncias"><label>Denúncia</label><br>
-    <input type="radio" name="assunto" id="assunto" value="Sugestao"><label>Sugestão</label><br>
-    <input type="radio" name="assunto" id="assunto" value="Elogios"><label>Elogios</label><br>
-    <input type="radio" name="assunto" id="assunto" value="Reclamacoes"><label>Reclamações</label><br>
-    <input type="radio" name="assunto" id="assunto" value="Perguntas"><label>Perguntas</label><br>
-    <input type="radio" name="assunto" id="assunto" value="Outros"><label>Outros</label><br>
-    </div>
 
-    <label>Mensagem: </label>
-        <input type="text" name="mensagem" id="mensagem"><br>
-    <input type="submit" value="Enviar">
+    <label class="sr-only">Escolha o tipo de assunto: </label><br>
+    
+    <input type="radio" name="assunto" id="assunto" value="Denuncias" ><label> Denúncia</label><br>
+    <input type="radio" name="assunto" id="assunto" value="Sugestao" ><label> Sugestão</label><br>
+    <input type="radio" name="assunto" id="assunto" value="Elogios" ><label> Elogios</label><br>
+    <input type="radio" name="assunto" id="assunto" value="Reclamacoes"><label> Reclamações</label><br>
+    <input type="radio" name="assunto" id="assunto" value="Perguntas" ><label> Perguntas</label><br>
+    <input type="radio" name="assunto" id="assunto" value="Outros" ><label> Outros</label><br>
+
+    </div>
+    <br>
+
+    <label class="sr-only">Escreva sua Mensagem: </label>
+        <input type="text" name="mensagem" id="mensagem" class="form-control"><br>
+        <br>
+    <input class="btn btn-lg btn-primary btn-block" type="submit" value="Enviar">
     </form>
       
     </div>
    </main>
 
-   <div class="rodape">
+
+   <footer class="footer">
+    <div class="areaadm">
+        <a href="./login.html"> Área do Administrador</a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3 text-dark">
+      © 2023 Copyright:
+      <h3 class="text-dark">Antônio Gabriel | Iumy Pimentel | Leticia Souza </h3>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+   <!--div class="rodape">
         <h3>Desenvolvido por &copy; Antônio Gabriel | Iumy Pimentel | Leticia Souza </h3>
    </div>
-   <script src="./js/bootstrap.js"></script>
+   <script src="./js/bootstrap.js"></script>-->
 </body>
 </html>
 
