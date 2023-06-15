@@ -36,13 +36,12 @@ b{
     width: 40rem;
     margin-bottom: 30px;
 }
-.titulo__link{
-    font-size: 25px;
-}
+
 .conteudo-links {
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 .conteudo-links-redes a {
     padding: 0.5em;
@@ -63,7 +62,10 @@ b{
 }
 .colegiado{
     display: flex;
-    width: 950px;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
     /*overflow: hidden; não ultrapassar a div*/
 }
 .membros{
