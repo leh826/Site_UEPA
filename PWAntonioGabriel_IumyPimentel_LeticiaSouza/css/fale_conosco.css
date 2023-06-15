@@ -5,6 +5,26 @@ body {
 p{
     text-align: justify;
 }
+div{   
+     margin-left: 10px;
+    color: var(--cor-branca);
+}
+main{
+    padding-bottom: 50px;
+}
+
+
+footer{
+    background-color:var(--cor-branca);
+    color: var(--cor-azul-escuro);
+    font-family: var(--fonte-principal);
+    position: relative;
+}
+
+label{
+    margin-left: 10px;
+    color: var(--cor-branca);
+}
 
 .areaadm{
     background-color:#53a7ea;
@@ -45,26 +65,6 @@ p{
     padding: 2px;
 }
 
-div{   
-     margin-left: 10px;
-    color: var(--cor-branca);
-}
-main{
-    padding-bottom: 50px;
-}
-
-
-footer{
-    background-color:var(--cor-branca);
-    color: var(--cor-azul-escuro);
-    font-family: var(--fonte-principal);
-    position: relative;
-}
-
-label{
-    margin-left: 10px;
-    color: var(--cor-branca);
-}
 .sr-only{
     text-transform: uppercase;
 }
@@ -94,11 +94,3 @@ label{
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-
-.div{
-    float: right;
-    align-items: center;
-
-}
-
-
