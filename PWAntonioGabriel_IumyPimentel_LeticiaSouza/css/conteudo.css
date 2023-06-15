@@ -72,10 +72,9 @@ b{
     width: 95%;
     justify-content: center;
     align-items: center;
-    /*overflow: hidden; não ultrapassar a div*/
 }
 .membros{
-    margin: 1em;
+    margin: 3em;
     padding: 10px;
     background-color: var(--cor-branca);
     border-radius: 5px;
@@ -89,4 +88,19 @@ figcaption{
     text-transform: uppercase;
     font-weight: bold;
     color: var(--cor-azul-escuro);
+}
+.matriz{
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    margin: 4em;
+    color: var(--cor-branca);
+}
+.curso{
+    text-align: justify;
+}
+.col-sm{
+    float: left;
+    padding: 30px;
+    margin: 0 auto;
 }
