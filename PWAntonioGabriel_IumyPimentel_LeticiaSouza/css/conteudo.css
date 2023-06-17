@@ -27,14 +27,16 @@ b{
 }
 .tabela{
     padding: 1em;
-    width: 40rem;
+    width: 50%;
     display: flex;
+    flex-wrap: wrap;
 }
 .tabela-aluno{
     display: flex;
     padding: 1em;
-    width: 40rem;
+    width: 50%;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .conteudo-links {
@@ -65,6 +67,7 @@ b{
     width: auto;
     height: auto;
     justify-content: space-between;
+    margin-bottom: 2em;
 }
 .colegiado{
     display: flex;
@@ -93,14 +96,46 @@ figcaption{
     width: 90%;
     text-align: center;
     justify-content: center;
-    margin: 4em;
+    margin: 2.5em;
     color: var(--cor-branca);
 }
 .curso{
     text-align: justify;
+    margin: 2.5em;
 }
 .col-sm{
     float: left;
     padding: 30px;
     margin: 0 auto;
+}
+.campus figure img{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    background-color: var(--cor-branca);
+    display: absolute;
+}
+.campus{
+   text-align: center;
+}
+.campus figcaption{
+    color: var(--cor-branca);
+}
+.rampa{
+    display: flex;
+    justify-content: center;   
+}
+.rampa img{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--cor-branca); 
+}
+.laboratorio{
+    display: flex;
+    justify-content: center;
+}
+.laboratorio img{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--cor-branca);
 }

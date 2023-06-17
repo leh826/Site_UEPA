@@ -10,10 +10,10 @@
     align-items: center;
 }
 section{
-    width: 950px;
+    width: 70%;
 }
 .docentes img{
-    display: block;
+    display: inline;
     padding: 20px;
     width: 200px; 
     background-color: var(--cor-branca);
