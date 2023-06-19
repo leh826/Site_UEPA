@@ -6,6 +6,7 @@ b{
     color: var(--cor-branca);
     font-weight: 400;
     text-align: justify;
+    margin-bottom: 1.5em;
 }
 .conteudo-titulo{
     font-weight: 700;
